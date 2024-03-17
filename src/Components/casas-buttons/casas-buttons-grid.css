@@ -1,0 +1,63 @@
+  .casas-button-grid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    background-color: #f0f0f0;
+  }
+  
+  .casa-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFFDFD;
+	  color: black;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease-in-out;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .casa-button:hover {
+    background-color: #ffffff00;
+  }
+
+  .casa-button:active {
+    box-shadow: none;
+  }
+
+  /* button span {
+    text-align: center;
+  } */
+
+  .text1 {
+    width: 100px; /* Set a fixed width of 50 pixels for the first text field */
+  }
+  
+  .text2 {
+    width: 100px; /* Set a fixed width of 100 pixels for the second text field */
+  }
+
+  .text3 {
+    width: 100px; /* Set a fixed width of 100 pixels for the second text field */
+  }
+
+  .text4 {
+    width: 100px; /* Set a fixed width of 100 pixels for the second text field */
+  }
+
+  .text5 {
+    width: 100px; /* Set a fixed width of 100 pixels for the second text field */
+  }
+
+
+  
