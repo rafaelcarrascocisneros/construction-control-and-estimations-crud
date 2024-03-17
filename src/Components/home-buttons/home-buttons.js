@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "C:/Users/Client/Desktop/crud-estimaciones/src/Components/home-buttons/home-buttons.css"
+import "./home-buttons.css"
 
 function HomeButtons() {
 

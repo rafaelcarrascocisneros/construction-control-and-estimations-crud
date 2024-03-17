@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
-import "C:/Users/Client/Desktop/crud-estimaciones/src/Components/input-grid/input_grid.css"
-import { supabase } from "C:/Users/Client/Desktop/crud-estimaciones/src/index.js"
+import "./input_grid.css"
+import { supabase } from "../../index.js"
 
 function InputGrid() {
     const textareaRef = useRef(null);

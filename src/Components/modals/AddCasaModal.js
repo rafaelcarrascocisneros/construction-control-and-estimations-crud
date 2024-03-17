@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./Modal.css";
-import { supabase } from "C:/Users/Client/Desktop/crud-estimaciones/src/index.js"
+import { supabase } from "../../index.js"
 
 function AddCasaModal(props) {
   const [clave, setClave] = useState("");

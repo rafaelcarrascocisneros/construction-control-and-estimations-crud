@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "C:/Users/Client/Desktop/crud-estimaciones/src/Components/obras-buttons/button-grid.css"
+import "./button-grid.css"
 import CustomLink from "../CustomLink";
 
 function ButtonGrid() {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "C:/Users/Client/Desktop/crud-estimaciones/src/Components/casas-buttons/casas-buttons-grid.css"
-import { supabase } from "C:/Users/Client/Desktop/crud-estimaciones/src/index.js"
+import "./casas-buttons-grid.css"
+import { supabase } from '../../index.js'
 
 function CasasButtons() {
     const [data, setData] = useState([]);

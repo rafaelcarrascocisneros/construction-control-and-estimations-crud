@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './button-grid.css';
-import { supabase } from "C:/Users/Client/Desktop/crud-estimaciones/src/index.js"
+import { supabase } from "../../index.js"
 
 const DynamicButtonGrid = () => {
   const [data, setData] = useState([]);
